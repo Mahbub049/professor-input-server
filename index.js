@@ -67,7 +67,8 @@ app.use('/api/skills', require('./routes/skills'));
 const uploadRoute = require('./routes/upload');
 app.use('/api/upload', uploadRoute);
 
-
+const achievementRoutes = require('./routes/achievementRoutes');
+app.use('/api/achievements', achievementRoutes);
 
 
 
