@@ -1,6 +1,5 @@
 const admin = require('firebase-admin');
-// const serviceAccount = require('./serviceAccountKey.json');
-
+require('dotenv').config();
 
 const serviceAccountJSON = Buffer.from(
   process.env.FIREBASE_SERVICE_ACCOUNT,
